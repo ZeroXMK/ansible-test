@@ -9,4 +9,6 @@
       - fzf
       - fd-find
       - cargo
-
+    state: latest
+    update_cache: true
+  ignore_errors: true
