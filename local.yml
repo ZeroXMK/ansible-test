@@ -10,8 +10,8 @@
       changed_when: false
 
   tasks:
-    - include: packages.yaml
-    - include: unattended-upgrades.yaml
+    - include: packages.yml
+    - include: unattended-upgrades.yml
 
   handlers:
     - name: Restart unattended-upgrades
